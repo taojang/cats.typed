@@ -4,4 +4,4 @@
             [cats.typed.protocols]
             [cats.builtin]))
 
-(t/ann ^:no-check cats.builtin/any-monoid (Monoid t/Bool))
+(t/ann ^:no-check cats.builtin/any-monoid (t/I Context (Monoid t/Bool)))
